@@ -1,0 +1,326 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{ box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: aquamarine; */
+    /* border: 1px solid yellow; */
+    }
+
+    body{
+       font-family: poppins, sans-serif;
+       font-size: 100%;
+       
+    }
+
+ 
+.book {
+    background: linear-gradient(to right, #ff4500, #460a74);
+    padding: 10px;
+    color: white;
+    font-size: smaller;
+    padding-left: 50px;
+    /* text-align: center; */
+    /* position: fixed; */
+    /* width: 100%; */
+}
+
+
+.logo {
+    background-color: #0F0F0F;
+    padding: 10px;
+    padding-bottom: -5px;
+}
+
+
+.nav {
+    background-color: #0e0e0e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 30px;
+       
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+ul a:hover {
+    opacity: 80%;
+}
+
+#navbtn {
+    background: linear-gradient(to right, #ff4500, #460a74);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 0px;
+}
+
+
+button:hover{
+    /* background: linear-gradient(to right, #b66400, #68249C); */
+    transition: all 0.3s ease-in;
+    opacity: 80%;
+    /* transform: scale(1.1); */
+
+    
+}
+
+
+
+select {
+    text-decoration: none;
+    border: none;
+    background: none;
+    color: white;
+    font-family: poppins bold, sans-serif;
+
+}
+
+option {
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white; 
+
+}
+
+.hero {
+    background-image: url(./Assets/hero.jpg);
+    background-size: cover;
+    height: 125vh;
+    padding: 10px;
+    color: white;
+    vertical-align: middle;
+}
+
+.diary {
+    padding: 20px;
+    margin-top: 350px;
+    margin-left: 80px;
+    font-size: 60px;
+    /* background: linear-gradient(to right, rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0)); */
+    line-height: 80px;
+}
+
+h3 {
+    font-size: 40px;
+    
+}
+
+p {
+    font-size: large;
+    /* font-family: poppin; */
+}
+
+.peek {
+    background-color: #fffbdb;
+    padding: 60px;
+    /* font-size: small; */
+}
+
+button {
+    border-radius: 50px;
+    background: linear-gradient(to right, #ff4500, #460a74);
+    padding: 12px;
+    color: white;
+    text-align: center;
+    font-family: poppins, sans-serif;
+    border: none;
+    cursor: pointer;
+    /* width: vmax; */
+    font-weight: bolder;
+    /* block-size: 50px; */
+    
+}
+
+.pressroom {
+    background-image: url(./Assets/Podcasts-Resource-center-thumbnail.-071-scaled\ \(1\).jpg);
+    background-size: cover;
+    height: 80vh;
+    padding: 10px;
+    color: white;
+    padding-top: 10%;
+    font-size: larger;
+    margin-bottom: 10px;
+    line-height: 20px;
+    
+}
+
+
+.news {
+    background-image: url(./Assets/news.jpg);
+    background-size: cover;
+    height: 80vh;
+    padding: 10px;
+    color: white;
+    padding-top: 15%;
+    font-size: larger;
+    margin-bottom: 10px;
+    line-height: 20px;
+    
+}
+
+.library {
+    background-image: url(./Assets/research.jpg);
+    background-size: cover;
+    height: 80vh;
+    padding: 10px;
+    color: white;
+    padding-top: 15%;
+    font-size: larger;
+    margin-bottom: 10px;
+    line-height: 20px;
+    
+}
+
+.underdog {
+    background-image: url(./Assets/Underdog.jpg);
+    background-size: cover;
+    height: 80vh;
+    padding: 10px;
+    color: white;
+    padding-top: 15%;
+    font-size: larger;
+    margin-bottom: 10px;
+    line-height: 20px;
+    
+}
+
+.podcast {
+    background-image: url(./Assets/Podcasts-Resource-center-thumbnail.-071-scaled\ \(1\).jpg);
+    background-size: cover;
+    height: 80vh;
+    padding: 10px;
+    color: white;
+    padding-top: 10%;
+    font-size: larger;
+    margin-bottom: 10px;
+    line-height: 20px;
+    
+}
+
+.interview {
+    background-image: url(./Assets/interview.jpg);
+    background-size: cover;
+    height: 80vh;
+    padding: 10px;
+    color: white;
+    padding-top: 15%;
+    font-size: larger;
+    margin-bottom: 10px;
+    line-height: 20px;
+    overflow: hidden;
+    position: relative;
+
+    
+}
+
+.testi {
+    background-image: url(./Assets/testimonial.jpg);
+    background-size: cover;
+    height: 80vh;
+    padding: 10px;
+    color: white;
+    padding-top: 15%;
+    font-size: larger;
+    margin-bottom: 10px;
+    line-height: 20px;
+    
+}
+
+.gallery {
+    background-image: url(./Assets/gallery.jpg);
+    background-size: cover;
+    height: 80vh;
+    padding: 10px;
+    color: white;
+    padding-top: 15%;
+    font-size: larger;
+    margin-bottom: 15px;
+    line-height: 20px;
+    
+}
+
+.footer  {
+    padding: 0px;
+    background-color: #0e0e0e;
+    padding: 25px;
+    line-height: 20px;
+    font-size: small;
+    padding-bottom: -10px;
+}
+
+footer {
+    background-color: #0e0e0e;
+    color: white;
+    padding: 10px;
+    font-size: x-small;
+    border-top: .5px solid grey;
+}
+
+.links {
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    color: white;
+    padding: 20px;
+    /* size: 80%; */
+    /* height: 20vmin; */
+    /* font-family: poppins thin, sans-serif; */
+    font-weight: light;
+    text-align: left;
+             
+}
+
+
+.info a {
+    text-decoration: none;
+    color: white;
+    font-size: x-small;
+}
+
+
+
+.qul {
+    display: flex;
+    flex-direction: column;
+    /* width: 25%; */
+    align-items: start;
+    list-style-type: none;
+    line-height: 15px;
+    margin-left: -10px;
+    
+}
+
+.qul a:hover {
+    transition: all 0.3s ease-in;
+    color: orange;
+}
+
+svg {
+    
+    color: yellow;
+    cursor: pointer;
+}
+
+svg image:hover{
+    /* transition: all .3s ease-in; */
+    opacity: 50%;
+}
